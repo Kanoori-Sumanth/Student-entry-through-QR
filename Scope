@@ -1,0 +1,14 @@
+Basic:
+	Generating qrcodes by taking manual input or file input
+	Scanning qrcodes through webcam and then writing that data into csv file
+
+Intermediate:
+  Along with the above,
+  	Creating an application with GUI showing button for capture, a container showing input given to webcam and when qr is detected, data extracted is shown and confirmed with student (Retry and confirm buttons appear in a popup).
+  	Syncing (Uploading and working with) file in Google drive
+
+Advanced:
+  Along with the above,
+	Getting data from SMS and use that to generate qrcodes
+
+Management of project is going to be done through git and github.
