@@ -10,5 +10,5 @@ n = int(input("Enter no. of students: "))
 for i in range(n):
 	details = input("Enter name, ID, branch, studying year, month, year of completion(seperate data with commas): ")
 	img = qrcode.make(details + "," + str(datetime.datetime.today().date()))
-	img.save(folName+'/'+details.split(",")[1])
+	img.save(folName+'/'+details.split(",")[1]+".png")
 print(f"\nSaved qrcodes with filenames as [ID]")
